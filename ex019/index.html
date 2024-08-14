@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h1>Aprendendo a montar formulário</h1>
+    </header>
+<!-- Campo de texto para o nome -->
+    <main>
+        <form action="/submit-form" method="post">
+        <label for="nome">Nome:</label>
+        <input type="text" name="nome" id="nome"><br><br>
+<!-- Campo de texto para o email -->
+        <label for="email">Email:</label>
+        <input type="email" name="email" id="email"><br><br>
+<!-- Botões de rádio para selecionar o gênero -->
+        <label> Gênero:</label><br>
+        <input type="radio" id="masculino" name="genero" value="masculino">
+        <label for="masculino">Masculino</label><br>
+        <input type="radio" id="feminino" name="genero" value="feminino">
+        <label for="feminino">Feminino</label><br><br>
+<!-- Caixas de seleção para interesses -->    
+        <label for="interesses">Interesses:</label><br>
+        <input type="checkbox" id="musica" name="interesses" value="musica">
+        <label for="musica">Música</label><br>
+        <input type="checkbox" name="interesses" id="esportes" value="esportes">
+        <label for="esportes">Esportes</label><br><br>
+<!-- Campo de texto longo para comentários -->
+        <label for="comentários">Comentários</label> 
+        <textarea name="comentários" id="comentários" rows="4" cols="50"></textarea><br><br>
+<!-- Botão de envio -->
+        <input type="submit" value="Enviar">
+    </form>
+
+</main>
+
+
+</body>
+</html>

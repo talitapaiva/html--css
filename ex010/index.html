@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pr-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hyperlinks</title>
+</head>
+<body>
+    <h1>Usando link externos</h1>
+    <hr>
+    <p>Aqui eu posso usar um link para que as pessoas possam ir direto para uma página que eu queira, ex: <a href="https://github.com/gustavoguanabara/html-css/blob/master/aulas-pdf/10%20-%20Liga%C3%A7%C3%B5es%20em%20toda%20parte.pdf">acesse o link do GitHub do Guanabara</a> </p>
+
+    <p> Ou o meu <a href="https://www.youtube.com/channel/UCR7v4-KStUOIxfyqavDW3-w">canal do youtube</a> que não presta mais pra nada.&#x1F615 </p>
+    <p> Eu posso usar um link externo deixando ele aparecer em cima da minha página principal como esse aqui.Porém a minha página principal vai sumir isso só com a tag (a href) <a href="https://github.com/gustavoguanabara/html-css/blob/master/aulas-pdf/10%20-%20Liga%C3%A7%C3%B5es%20em%20toda%20parte.pdf">ex: testando o primeiro link, que vai direto pra página do pdf de estudo.</a></p>
+    <p>Ou eu posso usar a mesma tag (a href) <a href="https://github.com/gustavoguanabara/html-css/blob/master/aulas-pdf/10%20-%20Liga%C3%A7%C3%B5es%20em%20toda%20parte.pdf" target="_blank">colar o link</a> e finalizar com a tag (target="blank") é indicado usar também juntas a tag(rel="external") para mostrar pro navegador que você está indo para o site externo.Depois do link copiado, antes do (a/) de finalizar a tag indo para uma página externa e deixando a minha página principal aberta &#x1F60E.</p>
+    <p> criei uma página 2 e para ir pra lá eu preciso colocar (o nome do meu arquivo que está dentro da mesma pasta) </p>
+    <p>Eu também posso ultilizar a tag (real="next") dentro do link da minha página ex: a href="pag2.html antes de fechar eu adiciono a tag rel="next". Assim eu estou avisando ao mecanismo de busca do google qual é a minha próxima página eu não deixo ele decidir qual é a página e para ele voltar para a página anterior (real="prev") eu aviso pra ele qual é a página anterior.</p>
+    <p><a href="pag  2.html" rel="next"> ir para a segunda página </a> </p>
+
+        <p>Eu posso adicionar uma terceira página ou quantas eu quiser, mais se estiver dentro de uma pasta preciso usar o nome da pasta para achar o arquivo <a href="testando a 3 pagina/pag003.html">Terceira página</a></p>
+
+        <p> Caso eu tenha que fazer referencia de um site que sei se é fake ou qual a intenção dele ali ou saber um aval do site ex: um site de fofoca eu uso a tag <a href="https://www.youtube.com/channel/UCR7v4-KStUOIxfyqavDW3-w" target="_blank"  rel="external">(a href= colo o link target="blank" rel= nofollow )</a> e o (rel="external" eu tamém aviso pro google que eu estou saindo da página) pra não ficar indexando ou ficar seguindo a página. ele abre a página mais eu aviso para o google que eu não dou o aval para esse site eu não conheço ele. </p>
+
+        <h1>Links Para Download</h1>
+        <ul>
+            <li>
+                <a href="teste download/Teste de PDF.pdf" download="Teste de PDF.pdf" type="application/pdf" target="_blank"> link para PDF (abre uma aba externa para ser feito o download)</a>
+            </li>
+        </ul>
+        
+</body>
+</html>

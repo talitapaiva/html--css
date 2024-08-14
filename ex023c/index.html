@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Formulário de Registro.</h1>
+        <h2>Por favor preencha este formulário com as informações necessárias</h2>
+    </header><hr>
+
+    <main>
+        <form action="submit-form" method="Post">
+            <label for="nome">Digite seu primeiro nome:</label><br>
+            <input type="text" name="nome" id="nome"><br><br>
+            <label for="sobre">Digite seu sobre nome:</label><br>
+            <input type="text" name="sobre nome" id="sobre nome"><br><br>
+            <label for="email">Digite seu email:</label><br>
+            <input type="text" name="email" id="email"><br>
+
+            <hr>
+            <p>Tipo de conta <i>(obrigatório)</i></p>
+
+            <input type="radio" id="personal" name="personal" value="personal">
+            <label for="personal">Personal</label><br>
+            <input type="radio" name="business" id="business">
+            <label for="business">Business</label><br>
+
+            <hr>
+            <p>Forneça uma biografia:</p>
+
+            <label for="biografia">Biográfia:</label><br>
+            <textarea name="biografia" id="biografia" cols="50" rows="10"></textarea><br>
+
+           <input type="submit" value="Enviar">
+
+        </form>
+    </main>
+    <footer>
+        <p>segundo formulário de registro para aprendizagem.</p>
+    </footer>
+</body>
+</html>

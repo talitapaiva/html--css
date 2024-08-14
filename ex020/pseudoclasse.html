@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo-classes</title>
+    <link rel="shortcut icon" href="favicon.ico.png" type="image/x-icon">
+    <style>
+div{ /*a div fica uma embaixo da outra */
+    display: inline-block; /*se eu quiser uma ao lado da outra */
+    background-color: rgb(186, 184, 184);/* vai colorir só as linhas da div*/
+    text-align: center;/*para centralizar o que tiver na linha*/
+    height: 200px;
+    width: 200px;
+    border: 1px solid black;/* aqui eu fdiz um short hand com tamanho do pixel sólida e cor*/
+}
+div:hover {
+    background-color: chocolate; /* depois que eu dei um nome com id pra cada div eu coloco dentro um psedo-classe com hover para passar o mouse por cima*/
+}
+    </style>
+</head>
+<body>
+    <div id="d1">01</div> 
+    <div id="d2">02</div>
+    <div id="d3">03</div>
+</body>
+</html>

@@ -1,0 +1,23 @@
+@charset "UTF-8";
+font-face{
+    font-family: android;
+    src: url(fontes/idroid.otf);
+    font-weight: bold;
+    font-style: normal;
+}
+body{
+    margin: 0;
+}
+
+header{
+    background-color:#44ddce ;
+    padding: 30px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: rgba(240, 248, 255, 0.866);
+    text-align: center;
+    }
+    a{
+        text-align: right;
+        color: black;
+
+    }
